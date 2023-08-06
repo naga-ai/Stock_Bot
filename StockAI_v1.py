@@ -78,7 +78,7 @@ def get_price_change_percent(symbol, days_ago):
     return round(percent_change, 2)
 
 # Use the function
-print(get_price_change_percent('AAPL', 30))  # for 30 days ago
+# print(get_price_change_percent('AAPL', 30))  # for 30 days ago
 
 import yfinance as yf
 from datetime import datetime, timedelta
